@@ -108,4 +108,4 @@ If you encounter any issues or have questions:
 
 ---
 
-**Note**: Replace `iret33` with your actual GitHub username in all URLs.
+Made with ❤️ for the Home Assistant community
