@@ -2,6 +2,9 @@
 
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://github.com/custom-components/hacs)
 [![GitHub release](https://img.shields.io/github/release/iret33/ha-dew-point-calculator.svg)](https://github.com/iret33/ha-dew-point-calculator/releases)
+[![GitHub downloads](https://img.shields.io/github/downloads/iret33/ha-dew-point-calculator/total.svg)](https://github.com/iret33/ha-dew-point-calculator/releases)
+[![GitHub stars](https://img.shields.io/github/stars/iret33/ha-dew-point-calculator.svg?style=social)](https://github.com/iret33/ha-dew-point-calculator)
+[![GitHub forks](https://img.shields.io/github/forks/iret33/ha-dew-point-calculator.svg?style=social)](https://github.com/iret33/ha-dew-point-calculator/fork)
 [![License](https://img.shields.io/github/license/iret33/ha-dew-point-calculator.svg)](LICENSE)
 
 A Home Assistant custom integration that calculates dew point from existing temperature and humidity sensors.
