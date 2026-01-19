@@ -1,0 +1,12 @@
+{
+  "domain": "dew_point_calculator",
+  "name": "Dew Point Calculator",
+  "version": "1.0.0",
+  "documentation": "https://github.com/iret33/ha-dew-point-calculator",
+  "issue_tracker": "https://github.com/iret33/ha-dew-point-calculator/issues",
+  "requirements": [],
+  "codeowners": ["@iret33"],
+  "config_flow": true,
+  "iot_class": "calculated",
+  "integration_type": "device"
+}
