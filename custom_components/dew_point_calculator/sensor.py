@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import logging
 import math
+from typing import Any
 
 from homeassistant.components.sensor import (
     SensorDeviceClass,
@@ -147,7 +148,7 @@ class DewPointSensor(SensorEntity):
             self._attr_native_value = None
 
     @property
-    def extra_state_attributes(self) -> dict[str, any]:
+    def extra_state_attributes(self) -> dict[str, Any]:
         """Return additional state attributes."""
         return {
             "temperature_sensor": self._temperature_sensor,
