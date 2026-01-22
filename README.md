@@ -87,6 +87,36 @@ This formula provides accuracy within ±0.4°C for temperatures between -40°C a
 - Verify humidity sensor reads 0-100%
 - Check that sensors are reading from the same location
 
+## Related Projects
+
+### ESPHome Component
+
+If you're using ESPHome devices and want to calculate dew point directly on the ESP device, check out the companion project:
+
+**[ESPHome Dew Point Sensor Component](https://github.com/iret33/esphome-dew-point)** - Calculate dew point directly on your ESP8266/ESP32 devices.
+
+### Which Should You Use?
+
+| Feature | Home Assistant Integration | ESPHome Component |
+|---------|---------------------------|-------------------|
+| **Calculation Location** | In Home Assistant | On ESP device |
+| **Configuration** | UI-based | YAML |
+| **Works offline** | Requires HA running | Yes |
+| **Sensor sources** | Any HA sensor | ESPHome sensors only |
+| **Best for** | Centralized setup, mixed sensors | Edge computing, standalone |
+
+**Choose Home Assistant Integration when:**
+- Your sensors aren't ESPHome devices (Zigbee, Z-Wave, WiFi, etc.)
+- You prefer UI-based configuration
+- You want centralized management of all dew point calculations
+- You're using sensors from different protocols/brands
+
+**Choose ESPHome Component when:**
+- You want calculations done locally on the device
+- You need the dew point even when Home Assistant is down
+- You're building a standalone weather station
+- You want to reduce Home Assistant load
+
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
