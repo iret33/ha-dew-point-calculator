@@ -1,11 +1,13 @@
 # Dew Point Calculator for Home Assistant
 
-[![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://github.com/custom-components/hacs)
-[![GitHub release](https://img.shields.io/github/release/iret33/ha-dew-point-calculator.svg)](https://github.com/iret33/ha-dew-point-calculator/releases)
-[![GitHub downloads](https://img.shields.io/github/downloads/iret33/ha-dew-point-calculator/total.svg)](https://github.com/iret33/ha-dew-point-calculator/releases)
-[![GitHub stars](https://img.shields.io/github/stars/iret33/ha-dew-point-calculator.svg?style=social)](https://github.com/iret33/ha-dew-point-calculator)
-[![GitHub forks](https://img.shields.io/github/forks/iret33/ha-dew-point-calculator.svg?style=social)](https://github.com/iret33/ha-dew-point-calculator/fork)
-[![License](https://img.shields.io/github/license/iret33/ha-dew-point-calculator.svg)](LICENSE)
+[![GitHub Release](https://img.shields.io/github/v/release/iret33/ha-dew-point-calculator?style=flat-square)](https://github.com/iret33/ha-dew-point-calculator/releases)
+[![GitHub Actions](https://img.shields.io/github/actions/workflow/status/iret33/ha-dew-point-calculator/validate.yml?style=flat-square&label=validate)](https://github.com/iret33/ha-dew-point-calculator/actions/workflows/validate.yml)
+[![HACS](https://img.shields.io/badge/HACS-Custom-orange.svg?style=flat-square)](https://github.com/hacs/integration)
+[![License](https://img.shields.io/github/license/iret33/ha-dew-point-calculator?style=flat-square)](LICENSE)
+[![Home Assistant](https://img.shields.io/badge/Home%20Assistant-2024.1.0+-blue?style=flat-square)](https://www.home-assistant.io/)
+[![GitHub Stars](https://img.shields.io/github/stars/iret33/ha-dew-point-calculator?style=flat-square)](https://github.com/iret33/ha-dew-point-calculator/stargazers)
+[![GitHub Issues](https://img.shields.io/github/issues/iret33/ha-dew-point-calculator?style=flat-square)](https://github.com/iret33/ha-dew-point-calculator/issues)
+[![Maintenance](https://img.shields.io/maintenance/yes/2026?style=flat-square)](https://github.com/iret33/ha-dew-point-calculator)
 
 A Home Assistant custom integration that calculates dew point from existing temperature and humidity sensors.
 
